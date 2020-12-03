@@ -12,8 +12,8 @@ import torch as th
 from torch import nn
 from torch.nn import functional as F
 
-from .resample import downsample2, upsample2
-from .utils import capture_init
+from resample import downsample2, upsample2
+from utils import capture_init
 
 
 class BLSTM(nn.Module):
